@@ -61,8 +61,8 @@ public class Pedido {
 	
 	public double total() {
 		double soma = 0.0;
-		for (ItemDoPedido it : itens) {
-			soma = soma + it.subTotal();
+		for (ItemDoPedido item : itens) {
+			soma = soma + item.subTotal();
 		}
 		return soma;
 	}
