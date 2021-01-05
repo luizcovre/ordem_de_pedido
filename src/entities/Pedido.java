@@ -9,7 +9,7 @@ import entities.enums.StatusPedido;
 
 public class Pedido {
 
-	private static SimpleDateFormat dataSimples = new SimpleDateFormat("dd/MM/yyyy");
+	private static SimpleDateFormat dataSimples = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 	
 	private Date dataPedido;
 	private StatusPedido status;
